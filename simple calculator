@@ -1,0 +1,28 @@
+import random
+
+
+def random_calculator():
+
+    random_or_not = input("would you like to use random numbers? (y/n)")
+
+    if random_or_not == 'y':
+        num1 = random.randint(0, 10)
+        num2 = random.randint(0, 10)
+    else:
+        num1 = random.randint(0, 10)
+        num2 = random.randint(0, 10)
+
+    op = input("enter an operator (+/-/*/:)")
+    if op == '+':
+        print("the result of ", num1, '+', num2, " is: ", num1+num2)
+    elif op == '-':
+        print("the result of ", num1, '-', num2, " is: ", num1-num2)
+    elif op == '*':
+        print("the result of ", num1, '*', num2, " is: ", num1*num2)
+    elif op == ':':
+        print("the result of ", num1, ':', num2, " is: ", num1/num2)
+    else:
+        print("unsupported operator")
+
+
+random_calculator()
