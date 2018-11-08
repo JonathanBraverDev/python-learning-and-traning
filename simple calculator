@@ -9,10 +9,11 @@ def random_calculator():
         num1 = random.randint(0, 10)
         num2 = random.randint(0, 10)
     else:
-        num1 = random.randint(0, 10)
-        num2 = random.randint(0, 10)
+        num1 = input("enter the first number")
+        num2 = input("enter the second number")
 
-    op = input("enter an operator (+/-/*/:)")
+    op = input("enter an operator (+/-/*/:"
+               ")")
     if op == '+':
         print("the result of ", num1, '+', num2, " is: ", num1+num2)
     elif op == '-':
