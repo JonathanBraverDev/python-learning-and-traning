@@ -1,3 +1,3 @@
 # python learning and traning
-some simple programs i wrote while learning python
+here you can see some simple programs I wrote while learning python
 
